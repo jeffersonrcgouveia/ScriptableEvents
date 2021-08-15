@@ -166,6 +166,12 @@ GameObject:
   - component: {fileID: 975720313}
   - component: {fileID: 975720312}
   - component: {fileID: 975720311}
+  - component: {fileID: 975720319}
+  - component: {fileID: 975720318}
+  - component: {fileID: 975720317}
+  - component: {fileID: 975720316}
+  - component: {fileID: 975720315}
+  - component: {fileID: 975720314}
   m_Layer: 0
   m_Name: Listeners
   m_TagString: Untagged
@@ -191,8 +197,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1690231461}
-        m_TargetAssemblyTypeName: MedievalHero.ScriptableEventsLogger, Assembly-CSharp-firstpass
-        m_MethodName: LogGameObjectScriptableEvent
+        m_TargetAssemblyTypeName: ScriptableEvents.Examples.Scripts.ScriptableEventsLogger,
+          ScriptableEvents
+        m_MethodName: LogGameObject
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -245,6 +252,186 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &975720314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975720310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08690062eb84d23bc9eeddc5700faf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Event>k__BackingField: {fileID: 11400000, guid: 6d6f943bbdb44754f9dbab039dfd0a2b,
+    type: 2}
+  <Response>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1690231461}
+        m_TargetAssemblyTypeName: ScriptableEvents.Examples.Scripts.ScriptableEventsLogger,
+          ScriptableEvents
+        m_MethodName: LogString
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &975720315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975720310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c851af2482481eac050fbeb142f2f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Event>k__BackingField: {fileID: 11400000, guid: fb2d85829e3fc644abecf00db12cfd90,
+    type: 2}
+  <Response>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1690231461}
+        m_TargetAssemblyTypeName: ScriptableEvents.Examples.Scripts.ScriptableEventsLogger,
+          ScriptableEvents
+        m_MethodName: LogBool
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &975720316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975720310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c1a12632db4772ab9275ca55cc6aad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Event>k__BackingField: {fileID: 11400000, guid: 8781aee921d880d43a457551afd179da,
+    type: 2}
+  <Response>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1690231461}
+        m_TargetAssemblyTypeName: ScriptableEvents.Examples.Scripts.ScriptableEventsLogger,
+          ScriptableEvents
+        m_MethodName: LogFloat
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &975720317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975720310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29316cfbf0c74971bc83fdf413cd9546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Event>k__BackingField: {fileID: 11400000, guid: faf22bf419f96e94888c6cd61b0789f5,
+    type: 2}
+  <Response>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1690231461}
+        m_TargetAssemblyTypeName: ScriptableEvents.Examples.Scripts.ScriptableEventsLogger,
+          ScriptableEvents
+        m_MethodName: LogInt
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &975720318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975720310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad755664ca924f2f8262bf93f8cbe900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Event>k__BackingField: {fileID: 11400000, guid: 59be641eae889fa4494881ab4cf92373,
+    type: 2}
+  <Response>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1690231461}
+        m_TargetAssemblyTypeName: ScriptableEvents.Examples.Scripts.ScriptableEventsLogger,
+          ScriptableEvents
+        m_MethodName: LogVector3
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &975720319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975720310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9ed9f1f94b4775bc385cf35b033b0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Event>k__BackingField: {fileID: 11400000, guid: be493fadead77bb4dadf1e10f6f3d0a4,
+    type: 2}
+  <Response>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1690231461}
+        m_TargetAssemblyTypeName: ScriptableEvents.Examples.Scripts.ScriptableEventsLogger,
+          ScriptableEvents
+        m_MethodName: LogTransform
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1253216868
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,7 +443,7 @@ GameObject:
   - component: {fileID: 1253216870}
   - component: {fileID: 1253216869}
   m_Layer: 0
-  m_Name: GameObjectCreator
+  m_Name: EventsInvoker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,6 +463,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onLoad: {fileID: 11400000, guid: f1e42ed0ae419594b8cd79c6e3631bb8, type: 2}
   onCreateGameObject: {fileID: 11400000, guid: 52f74a9a072505d47a2edddf679aa6e3, type: 2}
+  onFindTransform: {fileID: 11400000, guid: be493fadead77bb4dadf1e10f6f3d0a4, type: 2}
+  onPosition: {fileID: 11400000, guid: 59be641eae889fa4494881ab4cf92373, type: 2}
+  onIncrementCounter: {fileID: 11400000, guid: faf22bf419f96e94888c6cd61b0789f5, type: 2}
+  onCalculateDamage: {fileID: 11400000, guid: 8781aee921d880d43a457551afd179da, type: 2}
+  onEnableComponent: {fileID: 11400000, guid: fb2d85829e3fc644abecf00db12cfd90, type: 2}
+  onSetName: {fileID: 11400000, guid: 6d6f943bbdb44754f9dbab039dfd0a2b, type: 2}
 --- !u!4 &1253216870
 Transform:
   m_ObjectHideFlags: 0
