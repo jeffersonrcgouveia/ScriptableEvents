@@ -6,14 +6,30 @@ namespace ScriptableEvents.Listeners
 {
 	public class ScriptableEventListener : MonoBehaviour
 	{
-		[field: SerializeField] ScriptableEvent Event { get; set; }
+		[SerializeField] ScriptableEvent @event;
+
+		public ScriptableEvent Event
+		{
+			get => @event;
+			set
+			{
+				@event = value;
+				if (enabled) @event.AddListener(this);
+			}
+		}
 
 		[field: SerializeField, Space] UnityEvent Response { get; set; }
 
-		void OnEnable() => Event.AddListener(this);
+		void OnEnable()
+		{
+			if (Event) Event.AddListener(this);
+		}
 
-		void OnDisable() => Event.RemoveListener(this);
+		void OnDisable()
+		{
+			if (Event) Event.RemoveListener(this);
+		}
 
-		public void OnEventInvoked(object param = default) => Response.Invoke();
+		public void InvokeResponse() => Response.Invoke();
 	}
 }
