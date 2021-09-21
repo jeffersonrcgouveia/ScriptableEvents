@@ -1,6 +1,6 @@
 namespace ScriptableEvents.Constants
 {
-	public static class ScriptableEventConstants
+	public static class ScriptableEventsConstants
 	{
 		public const string MenuName = "ScriptableEvents/";
 		public const string ScriptableEventName = "ScriptableEvent";

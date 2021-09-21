@@ -2,7 +2,7 @@ using ScriptableEvents.Events;
 using ScriptableEvents.Events.Base;
 using UnityEngine;
 
-namespace ScriptableEvents.Examples.Scripts
+namespace ScriptableEvents.Examples
 {
     public class ObjectCreator : MonoBehaviour
     {

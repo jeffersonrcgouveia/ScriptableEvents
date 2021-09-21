@@ -1,6 +1,6 @@
 using ScriptableEvents.Events.Base;
 using UnityEngine;
-using static ScriptableEvents.Constants.ScriptableEventConstants;
+using static ScriptableEvents.Constants.ScriptableEventsConstants;
 
 namespace ScriptableEvents.Events
 {

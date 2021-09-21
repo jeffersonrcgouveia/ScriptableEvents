@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using ScriptableEvents.Listeners;
 using UnityEngine;
-using static ScriptableEvents.Constants.ScriptableEventConstants;
+using static ScriptableEvents.Constants.ScriptableEventsConstants;
 
 namespace ScriptableEvents.Events
 {

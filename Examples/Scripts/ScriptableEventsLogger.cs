@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ScriptableEvents.Examples.Scripts
+namespace ScriptableEvents.Examples
 {
 	public class ScriptableEventsLogger : MonoBehaviour
 	{
