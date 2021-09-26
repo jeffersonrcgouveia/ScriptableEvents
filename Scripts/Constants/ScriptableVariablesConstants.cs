@@ -3,7 +3,6 @@ namespace ScriptableEvents.Constants
 	public static class ScriptableVariablesConstants
 	{
 		public const string MenuName = "ScriptableVariables/";
-		public const string ScriptableVariableName = "ScriptableVariable";
 		public const string GameObjectName = "GameObjectScriptableVariable";
 		public const string TransformName = "TransformScriptableVariable";
 		public const string Vector3Name = "Vector3ScriptableVariable";
